@@ -5,4 +5,5 @@ Rails.application.routes.draw do
     root "home#index"
   end
 
+  get '/*path', to: 'static_pages#index'
 end
